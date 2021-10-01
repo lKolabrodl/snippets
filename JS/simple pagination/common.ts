@@ -1,5 +1,5 @@
 ;
-const dataItems: string[] = [
+const rawData: string[] = [
     "Item 1",
     "Item 2",
     "Item 3",
@@ -93,7 +93,7 @@ class Pagination {
     }
 }
 
-new Pagination(dataItems, listEl, paginationEl, 5);
+new Pagination(rawData, listEl, paginationEl, 5);
 
 
 
