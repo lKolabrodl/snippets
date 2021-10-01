@@ -4,4 +4,4 @@
 
 </br>
 </br>
-![Alt text](https://raw.githubusercontent.com/lKolabrodl/My-Snippets/master/web/CSS/Button%20effect%20animation%20gradient/img1.png)
+![Alt text](https://raw.githubusercontent.com/lKolabrodl/snippets/master/CSS/button/Neon%20hover%20btn/img1.png)
