@@ -1,10 +1,11 @@
 # simple pagination js
 
 Класс для создания простой пагинации на странице.
-Файл common.ts || commot.js иммет уже массив строк (raWdata)
-
 <br>
-Класс Pagination, принимает аргументы :
+Файл common.ts || commot.js иммет уже массив строк (raWdata) и управляющий класс Pagination;
+<br>
+<br>
+Pagination, принимает аргументы :
 <br>
 <b>data</b> - массив строк
 <br>
