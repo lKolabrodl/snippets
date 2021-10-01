@@ -16,5 +16,7 @@
 
 <br>
 <br>
-![Alt text](https://raw.githubusercontent.com/lKolabrodl/My-Snippets/master/web/JS/pagination/Screenshot_2.png)
-![Alt text](https://raw.githubusercontent.com/lKolabrodl/My-Snippets/master/web/JS/pagination/Screenshot_1.png)
+
+![Alt text](https://raw.githubusercontent.com/lKolabrodl/snippets/master/JS/simple%20pagination/pagination1.png)
+![Alt text](https://raw.githubusercontent.com/lKolabrodl/snippets/master/JS/simple%20pagination/pagination2.png)
+
