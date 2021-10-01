@@ -14,6 +14,8 @@
 
 <br><br>
 
+[demo link](https://htmlpreview.github.io/?https://github.com/lKolabrodl/snippets/blob/master/JS/simple%20pagination/index.html)
+
 <br>
 <br>
 
