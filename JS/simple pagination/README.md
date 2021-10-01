@@ -17,6 +17,17 @@
 [demo link](https://htmlpreview.github.io/?https://github.com/lKolabrodl/snippets/blob/master/JS/simple%20pagination/index.html)
 
 <br>
+
+Название файла  | Содержание файла
+----------------|----------------------
+common.js       | скомпилированный файл из ts
+common.ts       | файл с исходником 
+index.css       | Основные стили подключения
+index.html      | Главная страница
+screen/* .png   | Скриншоты превью
+
+
+<br>
 <br>
 
 ![Alt text](https://raw.githubusercontent.com/lKolabrodl/snippets/master/JS/simple%20pagination/screen/pagination1.png)
