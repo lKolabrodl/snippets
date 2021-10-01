@@ -1,8 +1,19 @@
-# Пагинация на js 
+# simple pagination js
 
-начальнаые данные список эл-ов, сколько эл-ов отображать на странице.
+
+класс пагинации принимает аргументы:
+<br>
+<b>data</b> - массив строк
+<br>
+<b>listNode</b> - нода блока, где будет отображаться список э-ов на странице
+<br>
+<b>paginationNode</b> - нода блока, отрисовки кнопок
+<br>
+<b>rowsPerPage</b> - количество элементов на странице
+<br>
+
 <br><br>
-ссылка на быстрый просмотр -  https://lkolabrodl.github.io/My-Snippets/web/JS/pagination/
+
 <br>
 <br>
 ![Alt text](https://raw.githubusercontent.com/lKolabrodl/My-Snippets/master/web/JS/pagination/Screenshot_2.png)
