@@ -1,7 +1,5 @@
 # Snippets
 
-simple pivottable
-
 >CSS
 
 > JS
