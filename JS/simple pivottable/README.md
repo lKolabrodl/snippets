@@ -1,5 +1,8 @@
 # simple Pivot Table js
 
+simple pivot table
+
+<br>
 Класс для создания структуры данных сводной таблицы, и получения их.
 
 ---
