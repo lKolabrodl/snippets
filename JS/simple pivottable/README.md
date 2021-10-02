@@ -25,7 +25,9 @@ measure - id значения, в виде строки
 <b>getYs(x, y)</b> - функцию, которая принимает индексы по оси x и y и отдает число
 
 <br>
-[demo link]()
+
+[demo link](https://htmlpreview.github.io/?https://github.com/lKolabrodl/snippets/blob/master/JS/simple%20pivottable/index.html)
+
 <br>
 
 Название файла  | Содержание файла
@@ -39,5 +41,6 @@ screen/* .png   | Скриншоты превью
 
 <br>
 <br>
-![Alt text]()
-![Alt text]()
+
+![Alt text](https://raw.githubusercontent.com/lKolabrodl/snippets/master/JS/simple%20pivottable/screen/pivot1.png)
+![Alt text](https://raw.githubusercontent.com/lKolabrodl/snippets/master/JS/simple%20pivottable/screen/pivot2.png)
