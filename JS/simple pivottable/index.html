@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>simple pivot table</title>
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+<section class="PivotTable" id="PivotTable">
+
+</section>
+
+<script src="pivot.js"></script>
+<script src="rawData.js"></script>
+
+<script>
+    // rawData + params
+    const options = {
+        xAxis: ['Party'],
+        yAxis: ['Gender', 'Name'],
+        measure: 'Age',
+    }
+    const pivotTableData = new Pivot(rawData, options)
+    const xs = pivotTableData.getXs();
+    const ys = pivotTableData.getYs();
+    const getValue = pivotTableData.getValue;
+
+    // ================== create table example
+
+    const xsDepth = xs[0].length;
+    const ysDepth = ys[0].length;
+
+    const wrapNode = document.getElementById('PivotTable');
+    const tableNode = document.createElement('table');
+    wrapNode.appendChild(tableNode)
+
+    renderHeader();
+    renderRows();
+
+    function renderHeader() {
+        for (let i = 0; i < xsDepth; i++) {
+            const tr = document.createElement('tr');
+
+            // create null cell
+            for (let i = 0; i < ysDepth; i++) {
+                const th = document.createElement("th");
+                th.classList.add('nullElement')
+                tr.appendChild(th);
+            }
+
+            for (let k = 0; k < xs.length; k++) {
+                const title = xs[k][i];
+                const th = document.createElement("th");
+                th.innerHTML = title;
+                tr.appendChild(th);
+            }
+            tableNode.appendChild(tr);
+        }
+    }
+
+    function renderRows() {
+        for (let i = 0; i < ys.length; i++) {
+            const tr = document.createElement('tr');
+
+            // create header
+            for (let k = 0; k < ysDepth; k++) {
+                const title = ys[i][k];
+                const th = document.createElement("th");
+                th.innerHTML = title;
+                tr.appendChild(th);
+            }
+
+            //create cells
+
+            for (let j = 0; j < xs.length; j++) {
+                let value = getValue(j, i) || '';
+                value = String(value);
+
+                const td = document.createElement("td");
+                td.innerHTML = value;
+                tr.appendChild(td);
+            }
+            tableNode.appendChild(tr);
+        }
+    }
+
+</script>
+
+</body>
+</html>
