@@ -6,7 +6,7 @@
 >>Neon hover btn
 
 > JS
->> simple pagination (пагинация на страницу)
+>> simple pagination
 >> 
 >> Internet Explorer Version
 
