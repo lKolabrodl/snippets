@@ -1,4 +1,4 @@
-# Regex по дате DATE
+# Regex формат даты
 
 ## yyyy-mm-dd
 ```
